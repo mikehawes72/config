@@ -1,5 +1,8 @@
-Helix doesn't support the ~/.config folder. So use the following to set up a symlink.
+1. Clone the repository as .config into ~
+   (or clone as config and then rename it)
 
-Run it from ~/AppData/Roaming
+2. Helix doesn't support the ~/.config folder. So use the following to set up a symlink.
 
-mklink /d helix c:\users\mike\.config\helix
+   Run it from ~/AppData/Roaming
+
+   mklink /d helix c:\users\mike\.config\helix
