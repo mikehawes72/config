@@ -11,8 +11,11 @@ local config = wezterm.config_builder()
 --config.initial_rows = 28
 
 -- or, changing the font size and color scheme.
+config.default_prog = { "pwsh.exe" }
+
 config.font_size = 10
-config.color_scheme = "Tokyo Night"
+config.font = wezterm.font("MesloLGM Nerd Font")
+config.color_scheme = "Dracula (Official)"
 
 config.keys = {
 	{
