@@ -14,7 +14,7 @@ local config = wezterm.config_builder()
 config.default_prog = { "pwsh.exe" }
 
 config.font_size = 10
-config.font = wezterm.font("MesloLGM Nerd Font")
+config.font = wezterm.font("JetBrains Mono")
 config.color_scheme = "Dracula (Official)"
 
 config.keys = {
