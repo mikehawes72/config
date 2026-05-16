@@ -15,12 +15,12 @@ config.default_prog = { "pwsh.exe" }
 
 config.font_size = 10
 config.font = wezterm.font("JetBrains Mono")
-config.color_scheme = "Dracula (Official)"
+config.color_scheme = "Adventure"
 
 config.keys = {
 	{
 		key = "w",
-		mods = "CTRL",
+		mods = "CTRL|SHIFT|ALT",
 		action = wezterm.action.CloseCurrentPane({ confirm = false }),
 	},
 }
